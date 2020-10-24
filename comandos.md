@@ -40,6 +40,14 @@
 
     git commit -am 'Mensaje o decripcion del commit'
 
+<!-- 8. Abrir el editor vim -->
+
+    git commit --amend
+
+<!-- 9. Para cerrar el editor vim -->
+
+    :wq
+
 <!-- Clase - 4  -->
 <!-- Clase - 5  -->
 <!-- Clase - 6  -->
