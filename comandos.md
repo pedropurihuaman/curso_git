@@ -48,7 +48,32 @@
 
     :wq
 
+<!-- 10. Para subir los archivos a github -->
+
+    git remote add origin https://github.com/pedropurihuaman/curso_git.git
+
+<!-- 11. Para actualizar y subir las modificaciones -->
+
+    git push -u origin main/master
+
 <!-- Clase - 4  -->
+<!-- 12. Para traer la información de remoto a local -->
+
+    git pull
+
+<!-- 13. Creando tags -->
+  <!-- git tag 'nombre archivo' -m 'Descripcion' -->
+
+    git tag 24-10-20v1 -m 'Versión 1 del proyecto'
+
+<!-- 14. Subiendo tags -->
+
+    git push --tags
+
+<!-- 15. Clana un repositorio  -->
+
+    git clone 'ruta del archivo remoto'
+
 <!-- Clase - 5  -->
 <!-- Clase - 6  -->
 <!-- Clase - 7  -->
