@@ -92,7 +92,9 @@ git checkout nombre_rama
 git merge nombre_rama_secundaria
 
 <!-- Clase - 6  -->
-<!-- 20.  -->
+<!-- 20. Borra una rama -->
+
+git branch -d nombre_rama_a_borrar
 
 <!-- Clase - 7  -->
 <!-- Clase - 8  -->
