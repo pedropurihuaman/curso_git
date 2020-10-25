@@ -87,6 +87,8 @@
 
     git checkout nombre_rama
 
+<!-- 19.  -->
+
 <!-- Clase - 6  -->
 <!-- Clase - 7  -->
 <!-- Clase - 8  -->
