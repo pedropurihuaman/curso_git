@@ -74,7 +74,19 @@
 
     git clone 'ruta del archivo remoto'
 
-<!-- Clase - 5  -->
+<!-- Clase - 5  -- RAMAS O BRANCH -->
+<!-- 16. Crear rama -->
+
+    git branch nombre_rama
+
+<!-- 17. Muestra en que rama te encuentras -->
+
+    git branch
+
+<!-- 18. Te mueves entre ramas -->
+
+    git checkout nombre_rama
+
 <!-- Clase - 6  -->
 <!-- Clase - 7  -->
 <!-- Clase - 8  -->
