@@ -1,97 +1,99 @@
 <!-- Lista de comandos de git -->
 <!-- Clase -1  -->
 
-1. Instalaciones
+Instalaciones
 
 <!-- Clase - 2  -->
 
 <!-- 1. Crear repositorio -->
 <!-- Inicia el repositorio -->
 
-    git init
+git init
 
 <!-- 2. Agregar archivos y directiorios a repositorio -->
   <!-- 2.1 Agrega un archivo en especifico.  -->
 
-    git add nombre.archivo
+git add nombre.archivo
 
   <!-- 2.2 Agrega todo los archivo -->
 
-    git add .
+git add .
 
 <!-- 3. Indica el estado de los archivos y directorios -->
 
-    git status -s
+git status -s
 
 <!-- 4. Respaldar archivos y directorios en repositorios -->
 
-    git commit -m 'Mensaje o descripción del commit'
+git commit -m 'Mensaje o descripción del commit'
 
 <!-- 5. Muestra el listado de las copias -->
 
-    git log --oneline
+git log --oneline
 
 <!-- 6. Restaura el archivo -->
 
-    git reset --hard 'codigo(c40f5aa)'
+git reset --hard 'codigo(c40f5aa)'
 
 <!-- Clase - 3  -->
 <!-- 7. Agrega los archivos y realiza un replado (commit) -->
 
-    git commit -am 'Mensaje o decripcion del commit'
+git commit -am 'Mensaje o decripcion del commit'
 
 <!-- 8. Abrir el editor vim -->
 
-    git commit --amend
+git commit --amend
 
 <!-- 9. Para cerrar el editor vim -->
 
-    :wq
+:wq
 
 <!-- 10. Para subir los archivos a github -->
 
-    git remote add origin https://github.com/pedropurihuaman/curso_git.git
+git remote add origin https://github.com/pedropurihuaman/curso_git.git
 
 <!-- 11. Para actualizar y subir las modificaciones -->
 
-    git push -u origin main/master
+git push -u origin main/master
 
 <!-- Clase - 4  -->
 <!-- 12. Para traer la información de remoto a local -->
 
-    git pull
+git pull
 
 <!-- 13. Creando tags -->
   <!-- git tag 'nombre archivo' -m 'Descripcion' -->
 
-    git tag 24-10-20v1 -m 'Versión 1 del proyecto'
+git tag 24-10-20v1 -m 'Versión 1 del proyecto'
 
 <!-- 14. Subiendo tags -->
 
-    git push --tags
+git push --tags
 
 <!-- 15. Clana un repositorio  -->
 
-    git clone 'ruta del archivo remoto'
+git clone 'ruta del archivo remoto'
 
 <!-- Clase - 5  -- RAMAS O BRANCH -->
 <!-- 16. Crear rama -->
 
-    git branch nombre_rama
+git branch nombre_rama
 
 <!-- 17. Muestra en que rama te encuentras -->
 
-    git branch
+git branch
 
 <!-- 18. Te mueves entre ramas -->
 
-    git checkout nombre_rama
+git checkout nombre_rama
 
 <!-- 19. Une la rama secundaria con la rama master -->
 
-    git merge nombre_rama_secundaria
+git merge nombre_rama_secundaria
 
 <!-- Clase - 6  -->
+<!-- 20.  -->
+
 <!-- Clase - 7  -->
 <!-- Clase - 8  -->
 <!-- Clase - 9  -->
